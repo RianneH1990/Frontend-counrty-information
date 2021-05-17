@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(49, 59%, 90%);
+}
+
+header {
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    font-family: 'KoHo', sans-serif;
+}
+
+#picture {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#world-img {
+    width: 200px;
+    height: 200px;
+}
+
+#searchBarDiv {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 50px;
+}
+
+h1 {
+    color: hsl(245, 69%, 22%);
+}
+
+p {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#containerResults {
+    border: 2px solid ;
+    border-radius: 10px;
+    background-color: hsl(202, 100%, 94%);
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    height: 300px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    line-height: 0.5;
+    margin: 20px 250px 20px 250px;
+}
+
+img {
+    height: 50px;
+    width: 60px;
+}
+

@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
+<header>Find country information</header>
+
+<div id="picture"><img id="world-img" src="Pictures/planet-earth.png" alt="world-img"></div>
+<div id="searchBarDiv"><input id="searchBar" type="text" onfocus="this.value=''" value="" />
+    <button id="searchButton" onclick="document.getElementById('searchBar').value = ''">Search</button>
+</div>
+<div id="containerResults" class="containerResults"></div>
 
 <script src="main.js"></script>
 </body>
